@@ -1,0 +1,162 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* 1) body */
+body {
+  background-image: url("../images/black.jpg");
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+/* 2) #page-wrapper (fluid layout) */
+#page-wrapper {
+  width: 90%;
+  max-width: 60rem;
+  margin: 0 auto;
+  box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 1);
+  border-radius: 12px 12px 0px 0px;
+  background-color: white;
+  overflow: hidden;
+}
+
+/* 3) #header */
+#header {
+  background-color: #777;
+  height: 80px;
+  position: relative;
+  clear: both;
+}
+
+/* 4) #header h1 */
+#header h1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 5px;
+  font-size: 3em;
+  font-family: 'Devonshire', cursive;
+  color: #E35335;
+  margin: 0;
+}
+
+/* 5) #header a#logo1 img */
+#header a#logo1 img {
+  height: 80px;
+  width: auto;
+  float: left;
+}
+
+/* 6) #header #toplink */
+#header #toplink {
+  text-decoration: none;
+  position: absolute;
+  top: -34px;
+  right: 10px;
+  color: white;
+  font-size: 1.8em;
+}
+
+/* 7) #footer */
+#footer {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  clear: both;
+}
+
+/* 8) #content-wrapper */
+#content-wrapper {
+  margin-top: 40px;
+  border-radius: 12px 12px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+/* 9) #main-content */
+#main-content {
+  width: 70%;
+  margin-left: 2%;
+  margin-right: 5%;
+}
+
+/* 10) h2 strong */
+h2 strong {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+/* 11) .image-r */
+.image-r {
+  float: right;
+  border: 2px solid blue;
+  width: 18rem;
+  padding: 0.5em;
+  background-color: white;
+  margin: 1em 0 1em 2em;
+}
+
+/* 12) #side-content */
+#side-content {
+  width: 25%;
+  background-image: url("../images/repeating.png");
+  padding: 1em;
+}
+
+/* 13) #main-nav */
+#main-nav {
+  width: 100%;
+  text-align: center;
+  background-color: #333;
+}
+
+/* 14) #main-nav ul */
+#main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* 15) #main-nav ul li */
+#main-nav ul li {
+  margin: 0;
+  padding: 0;
+}
+
+/* 16) #main-nav ul li a */
+#main-nav ul li a {
+  padding: 0.8em 1.5em;
+  display: block;
+  text-decoration: none;
+  color: #ccc;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* 17) #main-nav ul li a:hover */
+#main-nav ul li a:hover {
+  background-color: #ccc;
+  color: #333;
+}
+
+/* 18) #center */
+#center {
+  margin: 2em;
+  text-align: center;
+}
+
+/* 19) strong */
+strong {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+/* 20) Fixed layout override (for one page only) */
+.fixed-layout {
+  width: 960px;
+  margin: 0 auto;
+}
